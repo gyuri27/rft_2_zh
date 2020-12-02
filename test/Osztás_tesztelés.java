@@ -26,9 +26,9 @@ public class Osztás_tesztelés {
     
     @Test
     public void osztás5() throws Osztás_kivetel {
-        int oszto = 54;
+        int oszto = 60;
         int nevezo = 5;
-        int elvárás = 11;
+        int elvárás = 12;
         int eredmény = faktoriálisprojekt.Osztás.osztás(oszto, nevezo);
         assertEquals(eredmény, elvárás);
     }
